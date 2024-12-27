@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    background-color: #333;
+    color: #d8d8d8;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    width: 50%;
+}
+
+.footer-links a {
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+}
