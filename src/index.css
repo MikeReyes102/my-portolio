@@ -5,6 +5,10 @@
   
 }
 
+html {
+  height: 100%;
+}
+
 body {
   width: 100vw;
   font-family: "Roboto", sans-serif;

@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2rem;
+}
+
+.about h1 {
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills, .tools {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: auto;
+    width: 125px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
