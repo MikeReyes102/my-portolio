@@ -1,17 +1,25 @@
 import "./About.css";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
     <div>
       <div className="about">
+        <div className="about-text">
         <h1>About Me</h1>
         <p>
-          As a web developer, I’m passionate about creating dynamic,
-          user-friendly web applications. With a solid foundation in HTML, CSS,
-          and JavaScript, I enjoy tackling challenges and constantly evolving by
-          learning new technologies. I thrive in collaborative team settings
-          where solving problems is both rewarding and fun.
+          My name is Michael Reyes-Casanova.<br></br>
+          I am a Software Development student at ECPI University majoring in Web Design and Development. <br></br>
+          I am a self-motivated individual who is always looking for ways to improve my skills and knowledge. <br></br>
+          I currently hold an Active Secret Security Clearance as well as a CompTia Security+ Certification.<br></br>
         </p>
+        </div>
+        <Tilt>
+          <div className="about-img">
+            <img src="src\assets\Show pic.jpg" alt="Programmer" />
+          </div>
+        </Tilt>
+
       </div>
       <div className="skills">
         <h1>My Skills</h1>
@@ -33,7 +41,7 @@ function About() {
         <div className="container">
           <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code" />
           <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub" />
-          <img src="https://img.icons8.com/color/48/000000/heroku.png" alt="Heroku" />
+          <img src="https://img.icons8.com/color/48/000000/figma.png" alt="Figma" />
           <img src="https://img.icons8.com/color/48/000000/npm.png" alt="npm" />
           <img src="src\assets\postman-icon.png" alt="Postman" />
           <img src="https://img.icons8.com/color/48/000000/slack.png" alt="Slack" />

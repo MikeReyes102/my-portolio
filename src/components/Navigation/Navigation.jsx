@@ -5,7 +5,7 @@ function Navigation({ setActiveComponent }) {
     <div className="nav">
         <p onClick={() => setActiveComponent('Home')}>Home</p>
         <p onClick={() => setActiveComponent('About')}>About</p>
-        <p>Projects</p>
+        <p onClick={() => setActiveComponent('Projects')}>Projects</p>
         <p>Resume</p>
     </div>
   );

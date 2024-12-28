@@ -11,11 +11,10 @@ function Hero() {
       </Tilt>
       <div className="hero-text">
         <h1>
-          My name is <span className="name">Michael</span>!
+          Hello! My name is <span className="highlight">Michael Reyes-Casanova</span>
         </h1>
         <p>
-          I am a full-stack developer with a passion for creating modern and
-          responsive web applications.
+          I design and develop websites and web applications. 
         </p>
       </div>
     </div>

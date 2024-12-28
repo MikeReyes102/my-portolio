@@ -5,6 +5,7 @@ import Navigation from './components/Navigation/Navigation'
 import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
 import About from './components/About/About'
+import Projects from './components/Projects/Projects'
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('Home');
@@ -15,6 +16,8 @@ function App() {
         return <Hero />;
       case 'About':
         return <About />;
+      case 'Projects':
+        return <Projects />;
       default:
         return <Hero />;
     }
